@@ -1,0 +1,19 @@
+	body{
+			zoom:1.4;
+			transform: scale(1.5);
+			transform-origin: 0 0;
+			background: #202028;
+			color: #fff;
+			font-family: sans-serif;
+			font-size: 2em;
+			
+		}
+	canvas{
+			border: solid 0.2em #fff;
+			height: 90%;
+			margin-left: 25%;
+			margin-top: 2%;
+		}
+	#score{
+			margin-left: 32%;
+		}

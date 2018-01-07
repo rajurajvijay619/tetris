@@ -1,0 +1,21 @@
+1) forEach(element,index,array) - executes a function for each element in array
+	const arr = [1,2,3,4,5];
+
+	arr.forEach(function(element){
+		console.log(element*element);
+	});
+
+2) window.requestAnimationFrame(callback); - tells the browser that we wish to perform an animation and requests browser to repeatedly call a function. This enables smooth rendering of animation.
+
+3) console.table(data) - displays tabualar data as a table 
+	data - array (or) an object
+4) [a,b] = [10,20];   Destructuring assignment
+	a = 10, b = 20;
+	[a,b,...c] = [10,20,30,40,50];
+	a = 10, b = 20, c = [30,40,50]
+
+5) let - declares a block scope local variable
+	   - limited in scope to the block,statement,expression on which it is used.
+   var - defines a variable globally, or locally to an entire function regardless of block scope.
+
+6) debugger; - helps debug at the breakpoint
