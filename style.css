@@ -8,12 +8,32 @@
 			font-size: 2em;
 			
 		}
+
+	#container{
+		position: relative;
+		width: 400px;
+		margin: 0 auto;
+		text-align: center;
+	}
 	canvas{
 			border: solid 0.2em #fff;
 			height: 90%;
 			margin-left: 25%;
-			margin-top: 2%;
+			/*margin-top: 2%;*/
 		}
+
 	#score{
-			margin-left: 32%;
+			margin-left: -150%;
 		}
+	#keys{
+		/*border: 2px solid white;*/
+		/*text-align: center;*/
+		margin-top: 5%;
+		margin-bottom: 5%;
+		margin-left: -90%;
+		font-size: 0.4em;
+		/*float:left;*/
+	}
+	.index{
+		color:yellow;
+	}
